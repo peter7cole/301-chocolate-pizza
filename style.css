@@ -1,6 +1,3 @@
-.recipe {
-
-}
 
 #delicious{
     font-family: 'Lobster', cursive;
@@ -8,8 +5,7 @@
 }
 
 h1{
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #gogray{
@@ -34,9 +30,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 #social-media {
     float: right;
-
 }
-
 
 body {
     margin-right: 200px;
@@ -45,21 +39,12 @@ body {
     margin-bottom: 100px;
 }
 
-p{
-
-}
-
 .tab {
-    text-indent: -2em;
-    
-}
-
-body {
-/* background-color */
+    text-indent: -2em;  
 }
 
 span {
-color: white;
+  color: white;
 }
 
 .share-recipe {
@@ -77,14 +62,13 @@ color: white;
 }
 
 .list-right{
-float: right;
-margin-left: 200px;
-margin-top: -110px;
+  float: right;
+  margin-left: 200px;
+  margin-top: -110px;
 }
 
 .list-left{
     float: left;
-   
 }
 
 label {
@@ -100,5 +84,5 @@ label {
 }
 
 .copywrite{
-text-align: center;
+  text-align: center;
 }
