@@ -1,7 +1,70 @@
 .recipe {
 
-    
+}
+
+#delicious{
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
+}
+
+h1{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#gogray{
+    color: gray
+}
+
+.block {
+    display: inline-block;
+}
+
+.posted{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#print-bar{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.print {
+    float: right;
+}
+
+#social-media {
+    float: right;
 
 }
 
 
+body {
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+
+}
+
+p{
+
+}
+
+.tab {
+    text-indent: -2em;
+    
+}
+
+body {
+/* background-color */
+}
+
+span {
+color: white;
+
+}
+
+.share-recipe {
+    font-family: Arial, Helvetica, sans-serif;
+}

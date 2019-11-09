@@ -8,42 +8,45 @@
 
   <!-- Core Stylesheet -->
   <link rel="stylesheet" href="style.css">
-
+  <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <!-- HEADER -->
+  <!-- SOCIAL MEDIA -->
+  <div id="social-media">
+    <div class="top-social-info text-right">
+      <img src="img/fb-icon.png">
+      <img src="img/twit-icon.png">
+      <img src="img/gp-icon.png">
+      <img src="img/insta-icon.png">
+      <img src="img/flic-icon.png">
+      <img src="img/pint-icon.png">
+      <span> _ </span>
+      <img src="img/rss-icon.png">
+      <img src="img/mail-icon.png">
+    </div>
+  </div>
+
   <header class="header-area">
     <div id="header">
-      <div>
+      <div class="block">
         <img src="img/logo.png">
       </div>
-      <p>Delicious</p>
-      <p>THE BEST FOOD BLOG ON THE WEB</p>
-    </div>
+      <div class="block">
+        <div id="delicious">Delicious</div>
 
-
-    <!-- SOCIAL MEDIA -->
-    <div id="social-media">
-      <div class="top-social-info text-right">
-        <img src="img/fb-icon.png">
-        <img src="img/twit-icon.png">
-        <img src="img/gp-icon.png">
-        <img src="img/insta-icon.png">
-        <img src="img/flic-icon.png">
-        <img src="img/pint-icon.png">
+        <div id="gogray" class="posted">THE BEST FOOD BLOG ON THE WEB</div>
       </div>
     </div>
 
-    <!-- CSS GREY BAR -->
     <div class="css-grey-bar">
       <hr>
 
-      <div id="print-bar">
-        <img src="img/print-icon.png"> PRINT
-        <!-- PRINT ICONS BAR-->
-      </div>
     </div>
+
+
+    <!-- CSS GREY BAR -->
   </header>
 
   <!-- ##### Header Area End ##### -->
@@ -51,7 +54,15 @@
   <!-- ##### Delicious Header ##### -->
 
   <h1>Chocolate Pizza</h1>
-  <p>POSTED ON 15 DEC 2013 / DESERTS</p>
+  <div id="gogray" class="print">
+    <img src="img/print-icon.png"> PRINT
+    <!-- PRINT ICONS BAR-->
+  </div>
+
+  <p>
+    <div id="gogray" class="posted">POSTED ON 15 DEC 2013 / DESERTS</div>
+  </p>
+
 
   <!-- ##### Hero Area Start ##### -->
   <section class="hero-area">
@@ -61,13 +72,20 @@
   <!-- ##### Hero Area End ##### -->
 
   <!-- PARAGRAPHS -->
-  <p>For the fig-swirl: Melt butter over medium in a saucepan. Add brown sugar and stir to dissolve. Halve all of the
-    figs and toss in the saucepan with water and lemon juice. Cook over medium heat, stirring frequently, until you have
-    chunky-jammy mixture. Add salt with one or two stirs, set aside and let cool completely.</p>
-  <p>Ice cream: In a small pot over medium heat, combine milk, and granulated sugar until sugar is completely dissolved
+  <p class=“tab”> <span> ______ </span> For the fig-swirl: Melt butter over medium in a saucepan. Add brown sugar
+    and stir to dissolve. Halve all of the figs and toss in the saucepan with water and lemon juice. Cook over medium
+    heat, stirring
+    frequently, until you have chunky-jammy mixture. Add salt with one or two stirs, set aside and let cool completely.
+  </p>
+
+  <p class=“tab”> <span> ______ </span> Ice cream: In a small pot over medium heat, combine milk, and granulated sugar
+    until sugar is
+    completely dissolved
     and the milk is just barely luke-warm. Whisk in the egg yolks. Set mixture in the fridge and wait until the fig
     mixture is cooled.</p>
-  <p>Using an ice cream machine, poor liquids into the frozen basin and process according to manufacturer instructions,
+  <p class=“tab”> <span> ______ </span> Using an ice cream machine, poor liquids into the frozen basin and process
+    according to manufacturer
+    instructions,
     i.e., let spin and thicken for 20 minutes before adding mascarpone, fig jam mixture, and the nuts. Continue to
     process for +/- 10 minutes. Pour semi-frozen mixture into a pyrex dish or glass tupperware. Freeze for at least two
     hours before serving.</p>
@@ -137,34 +155,41 @@
 
       <hr>
       <!-- FOOTER -->
+
       <div class="vanessa">
         <img src="img/van-pic.png">
+      </div>
 
-        <div class="vanessa-info">
-          <h3>Vanessa Stevenson</h3>
-          <p>Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
-        </div>
+      <div class="vanessa-info">
 
-        <!-- SHARE RECIPE -->
-        <div class="share-recipe">
-          <p>SHARE RECIPE</p>
-        </div>
+        <h3>Vanessa Stevenson</h3>
+        <p>Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
+      </div>
+    </div>
 
-        <!-- SINGLE SKINNY BREAK -->
-        <div class="knife-and-fork">
-          <hr>
+    <!-- SHARE RECIPE -->
+    <div class="share-recipe">
+      <p>SHARE RECIPE</p>
+    </div>
 
-          <!-- https://raw.githubusercontent.com/codefellows/seattle-201d54/master/curriculum/day-10/lab-a/lab-assets/small-logo.png -->
-          <div class="knife-and-fork-line"></div>
-        </div>
-        <!-- Copywrite -->
-        <div class="copywrite">
-          <p>Delicious © 2013 · All rights reserved</p>
-          <p>Proudly published with Ghost.</p>
-        </div>
-        </footer>
+    <div id="gogray">
 
-        <script src="app.js"></script>
+      <!-- SINGLE SKINNY BREAK -->
+      <div class="knife-and-fork">
+        <hr>
+
+        <!-- https://raw.githubusercontent.com/codefellows/seattle-201d54/master/curriculum/day-10/lab-a/lab-assets/small-logo.png -->
+        <div class="knife-and-fork-line"></div>
+      </div>
+      <!-- Copywrite -->
+      <div class="copywrite">
+        <p>Delicious © 2013 · All rights reserved</p>
+        <p>Proudly published with Ghost.</p>
+      </div>
+    </div>
+    </footer>
+
+    <script src="app.js"></script>
 </body>
 
 </html>
